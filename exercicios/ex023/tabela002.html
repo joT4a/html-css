@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 1px;
+            background-color: gray;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        anatomia para tabelas grandes
+        table
+            caption
+            thead
+                tr, tb, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+
+    <table>
+        <caption>População</caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.849</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td>8000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tempore corrupti. Vel eos sequi quidem totam repellendus assumenda! Eveniet laborum culpa doloremque nulla, dolor saepe officia dolores enim repudiandae sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem earum enim qui assumenda neque veniam quisquam quod quidem eligendi, voluptate iure harum praesentium eius, possimus, officiis laboriosam minus autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo voluptate tempore dolorem nemo ducimus quos a quia? Doloribus numquam laborum modi obcaecati nihil omnis, earum repellendus ullam odit nesciunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum eius error molestiae eaque quas repellendus excepturi, accusamus delectus placeat itaque sequi distinctio autem quo rem labore? Expedita, harum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id magnam fugit quae veniam unde est porro nesciunt alias distinctio, possimus quos debitis cum minima omnis itaque, ducimus dolore cupiditate!</p>
+</body>
+</html>
